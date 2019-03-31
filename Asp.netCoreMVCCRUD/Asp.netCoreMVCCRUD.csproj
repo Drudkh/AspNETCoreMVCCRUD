@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190331161608_Create Database.cs" />
+    <Compile Remove="Migrations\20190331161608_Create Database.Designer.cs" />
+    <Compile Remove="Migrations\20190331164502_init.cs" />
+    <Compile Remove="Migrations\20190331164502_init.Designer.cs" />
+    <Compile Remove="Migrations\20190331165113_2.cs" />
+    <Compile Remove="Migrations\20190331165113_2.Designer.cs" />
+    <Compile Remove="Migrations\20190331165328_3.cs" />
+    <Compile Remove="Migrations\20190331165328_3.Designer.cs" />
+    <Compile Remove="Migrations\20190331165452_Initial Create.cs" />
+    <Compile Remove="Migrations\20190331165452_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20190331170417_Initial Create 2.cs" />
+    <Compile Remove="Migrations\20190331170417_Initial Create 2.Designer.cs" />
+    <Compile Remove="Migrations\20190331171419_01.cs" />
+    <Compile Remove="Migrations\20190331171419_01.Designer.cs" />
+    <Compile Remove="Migrations\20190331172045_Initialize.cs" />
+    <Compile Remove="Migrations\20190331172045_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20190331173332_Initial.cs" />
+    <Compile Remove="Migrations\20190331173332_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190331175928_InitialCreate.cs" />
+    <Compile Remove="Migrations\20190331175928_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20190331182356_01.cs" />
+    <Compile Remove="Migrations\20190331182356_01.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
